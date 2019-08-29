@@ -21,8 +21,9 @@ nav li {
     padding: 0 1rem;
 }
 
+#showcase-img,
 .overlay {
-    top: 125px;
+    height: 50vh;
 }
 
 #showcase h1 {
@@ -108,9 +109,6 @@ nav li {
         #navbar a {
             font-size: 0.8rem;
         }
-        .overlay {
-            top: 105px;
-        }
         #showcase h1 {
             font-size: 2.5rem;
         }
@@ -172,9 +170,6 @@ nav li {
                 }
                 #navbar a {
                     font-size: 0.5rem;
-                }
-                #showcase .overlay {
-                    top: 75px;
                 }
                 #showcase h1 {
                     padding: 0 0 0.3rem 0.25rem;
