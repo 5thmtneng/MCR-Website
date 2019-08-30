@@ -425,6 +425,10 @@ i {
     color: var(--highlight);
 }
 
+#bio-footer {
+    margin-top: 100vh;
+}
+
 
 /* Extras */
 
