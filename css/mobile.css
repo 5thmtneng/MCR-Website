@@ -231,6 +231,7 @@ nav li {
                 }
                 #showcase h1 {
                     padding: 0 0 0.3rem 0.25rem;
+                    font-size: 1.5rem;
                 }
                 #showcase p {
                     padding-right: 0.25rem;
@@ -266,11 +267,10 @@ nav li {
                 #contact input,
                 #contact textarea {
                     width: 100%;
-                    padding: 0.5rem;
                     margin-bottom: 1rem;
                 }
-                .contact-form .btn {
-                    margin-left: 0.5rem;
+                #contact .btn {
+                    margin: 1rem auto;
                 }
                 .footer p {
                     padding: 0;

@@ -5,3 +5,12 @@
 #contact {
     height: 100vw;
 }
+
+#navbar h1 {
+    font-size: 1rem;
+}
+
+#navbar p,
+#navbar a {
+    font-size: 0.8rem;
+}
