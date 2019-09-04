@@ -12,9 +12,10 @@ body {
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
     --primary: #458f8f;
-    --secondary: #377474;
+    --primary-dark: #377474;
     --highlight: #00ffff;
     --nav-height: 100px;
+    background: #f8fafa;
 }
 
 h1 {
@@ -178,7 +179,7 @@ nav a:hover {
     width: 40%;
     text-align: center;
     align-self: center;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 
 #services h2 {
@@ -211,15 +212,22 @@ i {
 #services-page {
     display: flex;
     flex-direction: column;
-    line-height: 2;
 }
 
 #first-div {
-    margin: 5rem 15rem 0 15rem;
+    margin: 5rem 15rem;
+}
+
+.underline {
+    width: 66%;
+    height: 5px;
+    margin: 0 auto;
+    background: var(--primary);
 }
 
 #second-div {
     margin: 3rem 10rem 5rem 10rem;
+    line-height: 2;
 }
 
 #services-page div:nth-child(2) {
@@ -233,7 +241,6 @@ i {
 
 #services-page h2 {
     text-align: center;
-    padding-bottom: 2rem;
 }
 
 #services-page p {
@@ -287,7 +294,7 @@ i {
 }
 
 #about a:hover {
-    color: var(--secondary);
+    color: var(--primary-dark);
 }
 
 
