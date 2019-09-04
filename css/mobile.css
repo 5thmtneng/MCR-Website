@@ -224,11 +224,13 @@ nav li {
                     --nav-height: 100px;
                 }
                 #navbar .wrapper {
-                    padding: 0.5rem 0 0.2rem 0;
+                    padding: 1rem 0 0.2rem 0;
+                }
+                #navbar h1 {
+                    font-size: 0.75rem;
                 }
                 #showcase h1 {
                     padding: 0 0 0.3rem 0.25rem;
-                    font-size: 1.5rem;
                 }
                 #showcase p {
                     padding-right: 0.25rem;
