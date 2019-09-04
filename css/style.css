@@ -169,6 +169,7 @@ nav a:hover {
     display: flex;
     align-content: space-between;
     padding: 5rem 14rem;
+    background: #f4f4f4;
 }
 
 #services div:first-child {
@@ -176,10 +177,9 @@ nav a:hover {
 }
 
 #services div:nth-child(2) {
-    width: 40%;
     text-align: center;
     align-self: center;
-    margin-left: 7rem;
+    margin-left: 10rem;
 }
 
 #services h2 {
@@ -195,10 +195,12 @@ nav a:hover {
 i {
     font-size: 7rem;
     padding: 2rem;
+    transition: all 0.75s ease;
 }
 
 #services h3 {
     font-size: 1.75rem;
+    transition: all 0.75s ease;
 }
 
 #services div:nth-child(2):hover i {
@@ -291,10 +293,11 @@ i {
     background: #222;
     color: #fff;
     margin-left: 0rem;
+    transition: all 0.25s ease;
 }
 
 #about a:hover {
-    color: var(--primary-dark);
+    color: var(--highlight);
 }
 
 
