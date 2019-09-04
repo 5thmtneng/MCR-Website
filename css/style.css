@@ -46,6 +46,7 @@ a {
     border: none;
     border-radius: 5px;
     margin: 1rem;
+    transition: all 0.25s ease;
 }
 
 .btn:hover {
@@ -293,11 +294,11 @@ i {
     background: #222;
     color: #fff;
     margin-left: 0rem;
-    transition: all 0.25s ease;
+    transition: all 0.6s ease;
 }
 
 #about a:hover {
-    color: var(--highlight);
+    color: #e3e099;
 }
 
 
