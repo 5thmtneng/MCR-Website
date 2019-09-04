@@ -228,7 +228,7 @@ nav li {
                 }
                 #showcase h1 {
                     padding: 0 0 0.3rem 0.25rem;
-                    font-size: 1.25rem;
+                    font-size: 1.5rem;
                 }
                 #showcase p {
                     padding-right: 0.25rem;
@@ -239,6 +239,18 @@ nav li {
                 }
                 #services-page h4 {
                     font-size: 1.5rem;
+                }
+                i {
+                    font-size: 5rem;
+                }
+                #services h3 {
+                    font-size: 1.5rem;
+                }
+                #services div:nth-child(2):hover i {
+                    font-size: 6rem;
+                }
+                #services div:nth-child(2):hover h3 {
+                    font-size: 1.75rem;
                 }
                 #projects {
                     margin: 15rem 3rem 10rem 2rem;
