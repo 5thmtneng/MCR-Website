@@ -7,7 +7,7 @@
 }
 
 #navbar {
-    height: 80px;
+    --nav-height: 80px;
 }
 
 #navbar h1 {
