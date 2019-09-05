@@ -6,6 +6,10 @@
     height: 100vw;
 }
 
+#navbar {
+    height: 100px;
+}
+
 #navbar h1 {
     font-size: 1rem;
 }
