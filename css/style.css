@@ -170,7 +170,7 @@ nav a:hover {
     display: flex;
     align-content: space-between;
     padding: 5rem 14rem;
-    background: #f4f4f4;
+    background: #e2e4e4;
 }
 
 #services div:first-child {
@@ -298,7 +298,7 @@ i {
 }
 
 #about a:hover {
-    color: #e3e099;
+    color: #edd4b2;
 }
 
 
