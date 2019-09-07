@@ -95,6 +95,7 @@ nav #title {
 }
 
 nav ul {
+    position: sticky;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
