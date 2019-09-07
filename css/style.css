@@ -85,6 +85,11 @@ nav #logo {
     background-size: contain;
 }
 
+nav h1 {
+    font-size: 24px;
+    /* needed for Edge */
+}
+
 nav #title {
     padding-left: 1rem;
 }
