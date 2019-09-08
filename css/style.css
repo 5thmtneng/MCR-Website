@@ -95,7 +95,6 @@ nav #title {
 }
 
 nav ul {
-    position: sticky;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
@@ -288,12 +287,16 @@ i {
 /* About */
 
 #about {
-    padding: 5rem 7rem;
+    padding: 5rem 18rem 5rem 7rem;
 }
 
 #about p {
     line-height: 2;
     padding-bottom: 2rem;
+}
+
+#about :nth-child(2) {
+    margin-bottom: 0.5rem;
 }
 
 #about a {

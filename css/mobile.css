@@ -14,6 +14,8 @@ nav .wrapper {
 nav ul {
     max-width: 100%;
     padding: 0;
+    position: absolute;
+    bottom: 10px;
 }
 
 nav li {
@@ -255,8 +257,12 @@ nav li {
                 #services div:nth-child(2):hover h3 {
                     font-size: 1.75rem;
                 }
+                #about {
+                    padding-right: 3rem;
+                    padding-left: 3rem;
+                }
                 #projects {
-                    margin: 15rem 3rem 10rem 2rem;
+                    margin: 5rem 3rem 10rem 2rem;
                 }
                 #projects h2 {
                     padding-bottom: 2rem;
