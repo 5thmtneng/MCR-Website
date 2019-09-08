@@ -260,6 +260,10 @@ nav li {
                     padding-right: 3rem;
                     padding-left: 3rem;
                 }
+                #bio p {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
                 #projects {
                     margin: 3rem 3rem 10rem 2rem;
                 }
