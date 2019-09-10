@@ -69,11 +69,6 @@ nav li {
     padding: 5rem 0;
 }
 
-#services-page div:nth-child(2) {
-    flex-direction: column;
-    margin-left: 0;
-}
-
 #first-div {
     margin: 5rem 5rem 0 5rem;
 }
@@ -140,6 +135,11 @@ nav li {
     }
     #services div:nth-child(2) {
         order: 1;
+    }
+    #services-page div:nth-child(2),
+    #services-page div:nth-child(3) {
+        flex-direction: column;
+        margin-left: 0;
     }
     #services-list {
         display: none;
