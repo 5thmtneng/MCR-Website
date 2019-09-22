@@ -157,11 +157,11 @@ nav a:hover {
     z-index: 2;
     align-self: flex-end;
     padding: 0 0 1rem 1rem;
-    font-size: 88px;
+    font-size: 70px;
 }
 
 #showcase p {
-    font-size: 44px;
+    font-size: 35px;
     grid-column: 1/4;
     justify-self: end;
     padding: 1rem 1rem 0 0;
