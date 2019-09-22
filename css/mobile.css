@@ -188,6 +188,12 @@ nav li {
         #showcase p {
             font-size: 1.2rem;
         }
+        #showcase .btn {
+            font-size: 0.5rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            margin-left: 1rem;
+        }
         #services-page h2 {
             font-size: 3rem;
         }

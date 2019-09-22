@@ -69,7 +69,7 @@ nav {
     align-items: flex-end;
     background: #222;
     color: #eee;
-    z-index: 3;
+    z-index: 4;
 }
 
 nav .wrapper {
