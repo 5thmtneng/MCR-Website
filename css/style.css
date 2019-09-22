@@ -157,15 +157,30 @@ nav a:hover {
     z-index: 2;
     align-self: flex-end;
     padding: 0 0 1rem 1rem;
-    font-size: 5.5rem;
+    font-size: 88px;
 }
 
 #showcase p {
-    font-size: 2.75rem;
+    font-size: 44px;
     grid-column: 1/4;
     justify-self: end;
     padding: 1rem 1rem 0 0;
     letter-spacing: 0.15rem;
+}
+
+#showcase .btn {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    background: var(--primary);
+    color: #fff;
+    z-index: 3;
+    margin: 0;
+}
+
+#showcase a:hover {
+    color: #222;
 }
 
 
