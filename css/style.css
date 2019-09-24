@@ -358,7 +358,7 @@ i {
     align-items: center;
     justify-content: center;
     background: var(--primary);
-    height: 77vh;
+    padding: 5rem 0;
 }
 
 #contact form {
@@ -367,7 +367,7 @@ i {
 
 #contact h3 {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     padding-bottom: 2rem;
 }
 
@@ -376,6 +376,10 @@ i {
     width: 50%;
     padding: 0.5rem;
     margin-bottom: 1rem;
+}
+
+#contact textarea {
+    padding: 3rem;
 }
 
 ::placeholder {
