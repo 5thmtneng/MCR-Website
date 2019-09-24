@@ -108,6 +108,10 @@ nav a {
     color: #fff;
 }
 
+nav ul li:nth-child(2) {
+    padding-right: 0.5rem;
+}
+
 nav a:hover {
     color: var(--highlight);
 }
