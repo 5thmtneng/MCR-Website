@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     color: var(--primary);
-    font-size: 5rem;
+    font-size: 4.6rem;
 }
 
 h4 {
@@ -240,7 +240,7 @@ i {
 }
 
 #first-div {
-    margin: 5rem 10rem;
+    margin: 5rem 7rem 4.5rem 10rem;
 }
 
 #second-div {
@@ -277,7 +277,7 @@ i {
 }
 
 #projects h2 {
-    padding-bottom: 5rem;
+    padding-bottom: 4.5rem;
 }
 
 #projects h4 {
@@ -325,16 +325,19 @@ i {
     padding-top: 2.5rem;
 }
 
+#bio h2 {
+    padding: 3rem 5rem 3rem 20rem;
+}
+
 #bio-img {
     background: url(../img/bio-pic.jpg) no-repeat center;
     background-size: contain;
     height: 8.5rem;
     width: auto;
-    margin-top: 5rem;
 }
 
 #bio p {
-    padding: 4rem 20rem 5rem 20rem;
+    padding: 4rem 20rem 0 20rem;
     line-height: 2;
 }
 
