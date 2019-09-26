@@ -92,7 +92,7 @@ nav li {
 }
 
 #about div {
-    width: 100%;
+    width: 200px;
     margin: auto;
     text-align: center;
 }
@@ -173,6 +173,7 @@ nav li {
     }
     #bio h2 {
         font-size: 3rem;
+        margin-top: 5rem;
     }
     #services-page div:nth-child(2),
     #services-page div:nth-child(3) {
@@ -272,7 +273,7 @@ nav li {
             #about div {
                 margin: 0;
                 text-align: left;
-                width: 100vw;
+                width: 200px;
             }
             #projects p {
                 padding-bottom: 5rem;
