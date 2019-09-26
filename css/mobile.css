@@ -114,13 +114,23 @@ nav li {
     height: 0rem;
 }
 
-#contact {
-    height: 100vh;
+#contact input,
+#contact textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#contact .btn {
+    margin: 1rem 0 5rem 0;
 }
 
 .fill-page {
     position: relative;
-    top: 90px;
+    top: 80px;
+}
+
+.footer {
+    position: relative;
 }
 
 .footer p {
