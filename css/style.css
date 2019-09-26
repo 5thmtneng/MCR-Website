@@ -198,7 +198,7 @@ nav a:hover {
 #services {
     display: flex;
     align-content: space-around;
-    padding: 5rem 7rem;
+    padding: 5rem 10rem 7rem 10rem;
     background: #e7ecec;
 }
 
@@ -302,7 +302,7 @@ i {
 /* About */
 
 #about {
-    padding: 5rem 18rem 5rem 7rem;
+    padding: 5rem 18rem 7rem 10rem;
 }
 
 #about h2 {
