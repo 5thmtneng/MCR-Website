@@ -150,8 +150,8 @@ nav a:hover {
 .overlay {
     background: rgba(0, 0, 0, 0.35);
     position: absolute;
-    grid-column: 1/8;
     grid-row: 1/8;
+    grid-column: 1/8;
     height: 60vh;
     width: 100%;
     z-index: 1;

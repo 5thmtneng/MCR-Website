@@ -1,3 +1,15 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 80px;
+    z-index: 4;
+}
+
+nav ul {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 #projects {
     margin-top: 3rem;
 }
@@ -17,4 +29,17 @@
 #navbar p,
 #navbar a {
     font-size: 0.5rem;
+}
+
+#showcase h1 {
+    font-size: 2rem;
+}
+
+#showcase p {
+    font-size: 1.2rem;
+}
+
+#showcase .btn {
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
 }
