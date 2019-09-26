@@ -123,10 +123,6 @@ nav a:hover {
     color: var(--highlight);
 }
 
-#nav-spacing {
-    height: var(--nav-height);
-}
-
 #navbar .you-are-here {
     color: #999;
 }
