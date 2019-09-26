@@ -267,6 +267,11 @@ nav li {
                 text-align: left;
                 width: 200px;
             }
+            #services p,
+            #about p,
+            #about .btn {
+                font-size: 1rem;
+            }
             #projects p {
                 padding-bottom: 5rem;
             }
@@ -326,9 +331,6 @@ nav li {
                 #contact textarea {
                     width: 100%;
                     margin-bottom: 1rem;
-                }
-                #contact .btn {
-                    margin: 1rem auto;
                 }
                 .footer p {
                     padding: 0;
