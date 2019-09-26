@@ -33,6 +33,7 @@ nav ul {
 
 #showcase h1 {
     font-size: 2rem;
+    margin-top: -1rem;
 }
 
 #showcase p {
@@ -42,4 +43,10 @@ nav ul {
 #showcase .btn {
     font-size: 0.75rem;
     margin-top: 0.75rem;
+}
+
+#services h2,
+#about h2,
+#contact h3 {
+    font-size: 3rem;
 }

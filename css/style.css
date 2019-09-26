@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,600,700&display=swap");
 
 /* General Stylings */
 
@@ -11,6 +11,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
+    font-weight: 400;
     --primary: #458f8f;
     --primary-dark: #377474;
     --highlight: #00ffff;
@@ -25,11 +26,17 @@ h1 {
 h2 {
     color: var(--primary);
     font-size: 4.6rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-bottom: 1rem;
+    font-weight: 600;
 }
 
 ul {
@@ -164,6 +171,7 @@ nav a:hover {
     grid-row: 3/3;
     grid-column: 1/8;
     margin: auto;
+    position: relative;
 }
 
 #showcase p {
@@ -174,6 +182,7 @@ nav a:hover {
     grid-row: 4/4;
     grid-column: 1/8;
     margin: auto;
+    position: relative;
 }
 
 #showcase .btn {
@@ -186,7 +195,7 @@ nav a:hover {
     font-size: 1.2rem;
     grid-row: 5/5;
     grid-column: 1/8;
-    margin: 0;
+    margin-bottom: -0.5rem;
 }
 
 #showcase a:hover {
@@ -408,7 +417,7 @@ i {
     font-family: "Montserrat", sans-serif;
 }
 
- ::placeholder {
+::placeholder {
     color: #000;
     opacity: 1;
     font-family: "Montserrat", sans-serif;

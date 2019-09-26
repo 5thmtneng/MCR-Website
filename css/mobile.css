@@ -72,10 +72,6 @@ nav li {
     margin: 3rem 5rem 5rem 5rem;
 }
 
-.underline {
-    background: none;
-}
-
 #about {
     width: 75%;
     padding: 6rem 0;
@@ -255,7 +251,6 @@ nav li {
             #showcase p {
                 padding-right: 0.15rem;
                 font-size: 0.8rem;
-                font-weight: bold;
             }
             #services h2,
             #about h2 {
@@ -274,6 +269,9 @@ nav li {
             }
             #projects p {
                 padding-bottom: 5rem;
+            }
+            #services-page {
+                margin-left: 2.5rem;
             }
             #bio {
                 height: 120vh;
@@ -297,22 +295,25 @@ nav li {
                     font-size: 0.7rem;
                 }
                 #services-page h2 {
-                    font-size: 2.25rem;
+                    font-size: 2.5rem;
                 }
                 #services-page h4 {
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                 }
                 i {
                     font-size: 5rem;
                 }
+                #services h2 {
+                    margin-top: -1rem;
+                }
                 #services h3 {
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                 }
                 #services div:nth-child(2):hover i {
                     font-size: 6rem;
                 }
                 #services div:nth-child(2):hover h3 {
-                    font-size: 1.75rem;
+                    font-size: 1.5rem;
                 }
                 #bio p {
                     padding-left: 3rem;
