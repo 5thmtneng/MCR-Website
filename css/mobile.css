@@ -23,11 +23,6 @@ nav li {
     margin-top: 0.25rem;
 }
 
-#showcase-img,
-.overlay {
-    height: 50vh;
-}
-
 #showcase h1 {
     font-size: 4rem;
 }
@@ -144,7 +139,6 @@ nav li {
     }
     #showcase h1 {
         font-size: 3rem;
-        justify-self: flex-start;
     }
     #showcase p {
         font-size: 1.5rem;
@@ -213,16 +207,14 @@ nav li {
         }
         #showcase h1 {
             font-size: 2.5rem;
+            margin-bottom: -1rem;
         }
         #showcase p {
             font-size: 1.2rem;
         }
         #showcase .btn {
-            font-size: 0.5rem;
-            padding-left: 0.75rem;
-            padding-right: 0.75rem;
-            margin-left: 1rem;
-            margin-bottom: 0.5rem;
+            font-size: 0.75rem;
+            margin-top: -0.5rem;
         }
         #services-page h2 {
             font-size: 3rem;

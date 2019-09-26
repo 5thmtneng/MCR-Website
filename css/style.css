@@ -163,6 +163,7 @@ nav a:hover {
     font-size: 70px;
     grid-row: 3/3;
     grid-column: 1/8;
+    margin: auto;
 }
 
 #showcase p {
