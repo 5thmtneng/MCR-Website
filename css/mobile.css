@@ -118,6 +118,11 @@ nav li {
     height: 100vh;
 }
 
+.fill-page {
+    position: relative;
+    top: 90px;
+}
+
 .footer p {
     padding: 0.05rem 0;
     font-size: 0.65rem;
@@ -152,10 +157,12 @@ nav li {
         order: 1;
     }
     #services-page h2,
-    #projects h2,
-    #bio h2 {
+    #projects h2 {
         font-size: 3rem;
         text-align: left;
+    }
+    #bio h2 {
+        font-size: 3rem;
     }
     #services-page div:nth-child(2),
     #services-page div:nth-child(3) {
