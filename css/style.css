@@ -148,7 +148,7 @@ nav a:hover {
 }
 
 #showcase-img {
-    background: url(../img/showcase.png) no-repeat center center/cover;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
     grid-column: 1/8;
     grid-row: 1/8;
 }
