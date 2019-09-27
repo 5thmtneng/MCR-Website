@@ -97,16 +97,12 @@ nav li {
 }
 
 #bio-footer {
-    margin-top: 800px;
+    margin-top: 15rem;
 }
 
 #bio p {
     padding-left: 5rem;
     padding-right: 5rem;
-}
-
-#contact-page-spacing {
-    height: 0rem;
 }
 
 #contact input,
@@ -117,11 +113,6 @@ nav li {
 
 #contact .btn {
     margin: 1rem 0 5rem 0;
-}
-
-.fill-page {
-    position: relative;
-    top: 80px;
 }
 
 .footer {
@@ -167,7 +158,6 @@ nav li {
     }
     #bio h2 {
         font-size: 3rem;
-        margin-top: 5rem;
     }
     #services-page div:nth-child(2),
     #services-page div:nth-child(3) {
@@ -178,7 +168,7 @@ nav li {
         display: none;
     }
     #projects {
-        margin: 5rem;
+        margin: 10rem 5rem;
     }
     #projects h2 {
         padding-bottom: 3rem;
@@ -223,7 +213,7 @@ nav li {
             font-size: 3rem;
         }
         #projects {
-            margin: -2rem 4rem 5rem 4rem;
+            margin: 10rem 4rem 5rem 4rem;
         }
         @media(max-width: 510px) {
             h2 {
@@ -277,9 +267,6 @@ nav li {
             #services-page {
                 margin-left: 2.5rem;
             }
-            #bio {
-                height: 120vh;
-            }
             @media(max-width: 450px) {
                 #navbar {
                     --nav-height: 100px;
@@ -324,7 +311,7 @@ nav li {
                     padding-right: 3rem;
                 }
                 #projects {
-                    margin: 3rem 3rem 10rem 2rem;
+                    margin: 10rem 3rem 10rem 2rem;
                 }
                 #projects h2 {
                     padding-bottom: 2rem;
