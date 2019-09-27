@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,500,600,700&display=swap");
 
 /* General Stylings */
 
@@ -188,13 +188,14 @@ nav a:hover {
     justify-self: center;
     align-self: center;
     background: var(--primary);
-    color: #f8fafa;
+    color: #fff;
     z-index: 3;
     position: relative;
     font-size: 1.2rem;
     grid-row: 5/5;
     grid-column: 1/8;
     margin-bottom: -0.5rem;
+    font-weight: 500;
 }
 
 #showcase a:hover {
