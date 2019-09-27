@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     --primary: #458f8f;
     --primary-dark: #377474;
-    --highlight: #00ffff;
+    --highlight: #edd4b2;
     --nav-height: 100px;
     background: #f8fafa;
 }
@@ -113,6 +113,7 @@ nav ul {
 
 nav a {
     color: #f8fafa;
+    transition: all 0.6s ease;
 }
 
 nav ul li:nth-child(2) {
@@ -343,7 +344,7 @@ i {
 }
 
 #about a:hover {
-    color: #edd4b2;
+    color: var(--highlight);
 }
 
 
@@ -384,46 +385,47 @@ i {
 /* Contact */
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background: var(--primary);
     padding: 5rem 0;
-    position: relative;
-    padding-bottom: 10rem;
 }
 
-#contact form {
-    width: 80%;
+.contact-div {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact label {
     color: #fff;
-    justify-self: start;
     font-weight: 400;
     font-size: 1.5rem;
+    display: block;
+    text-align: left;
+    margin: 1.5rem 0 0.25rem 0;
 }
 
 #contact h3 {
     color: #fff;
     font-size: 4.6rem;
-    padding-bottom: 3rem;
+    text-align: center;
 }
 
 #contact input,
 #contact textarea {
-    width: 50%;
-    padding: 0.666rem;
+    width: 100%;
+    padding: 0.6rem;
 }
 
 #contact textarea {
-    padding: 3rem;
+    padding: 0.6rem 5rem 5rem 0.6rem;
 }
 
 #contact form .btn {
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
+    margin: 3rem 0 0 0;
+    width: 8rem;
 }
 
 ::placeholder {
@@ -433,13 +435,19 @@ i {
     font-size: 0.8rem;
 }
 
-#contact-page-spacing {
-    height: 12vh;
-    background: var(--primary);
+#contact-page-h3 {
+    margin-top: 7rem;
 }
 
-#contact-page-h3 {
-    margin-top: 1rem;
+#contact .btn {
+    background: #222;
+    color: #f8fafa;
+    font-size: 1.2rem;
+    transition: all 0.6s ease;
+}
+
+#contact .btn:hover {
+    color: var(--highlight);
 }
 
 
@@ -461,6 +469,7 @@ i {
 
 .footer a {
     color: #fff;
+    transition: all 0.6s ease;
 }
 
 .footer a:hover {

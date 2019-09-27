@@ -23,10 +23,19 @@ nav .wrapper {
 }
 
 #contact {
-    height: 110vw;
+    height: 150vw;
     position: relative;
-    top: 75px;
     padding-bottom: 10rem;
+    padding-top: 5rem;
+}
+
+#contact-page-h3 {
+    margin-top: 0;
+}
+
+#contact-page-spacing {
+    background: var(--primary);
+    height: 5rem;
 }
 
 #navbar {
@@ -60,9 +69,4 @@ nav .wrapper {
 #about h2,
 #contact h3 {
     font-size: 3rem;
-}
-
-.footer {
-    position: relative;
-    bottom: 0;
 }
