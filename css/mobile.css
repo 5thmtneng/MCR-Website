@@ -27,6 +27,11 @@ nav li {
     margin-top: 0.25rem;
 }
 
+#showcase,
+.overlay {
+    height: 50vh;
+}
+
 #showcase h1 {
     font-size: 4rem;
 }
