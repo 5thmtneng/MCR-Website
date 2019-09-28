@@ -47,21 +47,30 @@
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name">
                 </div>
+                <div id="name-feedback" class="feedback feedback-invisible">
+                    Please enter a first and last name!
+                </div>
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Your Email">
                 </div>
+                <div id="email-feedback" class="feedback feedback-invisible">
+                    Please enter a valid email: example@email.com!
+                </div>
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
                     <input type="text" name="phone" id="phone" placeholder="Your Phone Number">
+                </div>
+                <div id="phone-feedback" class="feedback feedback-invisible">
+                    Please enter a valid 10 digit phone number!
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" placeholder="Type your message here..."></textarea>
                 </div>
                 <input type="submit" value="Send" class="btn">
+            </form>
         </div>
-        </form>
     </section>
     <!-- Footer -->
     <footer class="footer">
@@ -73,11 +82,8 @@
         <p>|</p>
         <p>Designed and Developed by <a href="https://github.com/rwszymczakiii">Robbie Szymczak</a></p>
     </footer>
-
-    <!-- Jquery CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Local JS -->
-    <script src="js/bio.js "></script>
+    <script src="js/email.js"></script>
 </body>
 
 </html>

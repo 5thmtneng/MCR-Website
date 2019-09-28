@@ -426,6 +426,17 @@ i {
     padding: 0.6rem 5rem 5rem 0.6rem;
 }
 
+.feedback {
+    color: #ccdf7c;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    margin-top: -1rem;
+}
+
+.feedback-invisible {
+    display: none;
+}
+
 #contact form .btn {
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
@@ -481,5 +492,3 @@ i {
 .footer a:hover {
     color: var(--highlight);
 }
-
-z
