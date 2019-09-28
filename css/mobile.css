@@ -48,11 +48,24 @@ nav li {
 
 #services div:first-child {
     width: 60%;
+    margin: auto;
+    padding: 5rem 0 0 0;
 }
 
 #services div:nth-child(2) {
+    width: 0%;
+}
+
+#services div:nth-child(3) {
     width: 40%;
     margin-left: 0;
+    justify-content: center;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.fa-burn {
+    padding-top: 0;
 }
 
 #services-page {
@@ -65,18 +78,6 @@ nav li {
 
 #services div:first-child {
     width: 75%;
-    padding-bottom: 2rem;
-}
-
-#services div:nth-child(2) {
-    justify-content: center;
-    margin: 0rem;
-    padding-top: 0;
-}
-
-#services div {
-    margin: auto;
-    padding: 5rem 0;
 }
 
 #first-div {
@@ -129,7 +130,7 @@ nav li {
     font-size: 0.65rem;
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
     #showcase p {
         font-size: 2rem;
     }
@@ -153,7 +154,7 @@ nav li {
     #writing {
         margin-bottom: 3rem;
     }
-    #services div:nth-child(2) {
+    #services div:nth-child(3) {
         order: 1;
     }
     #services-page h2,
@@ -189,7 +190,7 @@ nav li {
     .footer p:nth-child(even) {
         display: none;
     }
-    @media(max-width: 630px) {
+    @media (max-width: 630px) {
         #navbar {
             --nav-height: 110px;
         }
@@ -220,7 +221,7 @@ nav li {
         #projects {
             margin: 10rem 4rem 5rem 4rem;
         }
-        @media(max-width: 510px) {
+        @media (max-width: 510px) {
             h2 {
                 text-align: left;
             }
@@ -269,7 +270,7 @@ nav li {
             #services-page {
                 margin-left: 2.5rem;
             }
-            @media(max-width: 450px) {
+            @media (max-width: 450px) {
                 #navbar {
                     --nav-height: 100px;
                 }
@@ -300,10 +301,10 @@ nav li {
                 #services h3 {
                     font-size: 1.25rem;
                 }
-                #services div:nth-child(2):hover i {
+                #services div:nth-child(3):hover i {
                     font-size: 6rem;
                 }
-                #services div:nth-child(2):hover h3 {
+                #services div:nth-child(3):hover h3 {
                     font-size: 1.5rem;
                 }
                 #services-page h2,

@@ -213,14 +213,18 @@ nav a:hover {
 }
 
 #services div:first-child {
-    width: 65%;
+    width: 60%;
 }
 
 #services div:nth-child(2) {
+    width: 10%;
+}
+
+#services div:nth-child(3) {
     text-align: center;
     align-self: center;
     justify-self: center;
-    width: 35%;
+    width: 30%;
     margin-left: 1rem;
 }
 
@@ -246,11 +250,11 @@ i {
     transition: all 0.75s ease;
 }
 
-#services div:nth-child(2):hover i {
+#services div:nth-child(3):hover i {
     font-size: 8rem;
 }
 
-#services div:nth-child(2):hover h3 {
+#services div:nth-child(3):hover h3 {
     font-size: 1.9rem;
 }
 
