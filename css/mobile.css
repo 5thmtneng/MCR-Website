@@ -301,22 +301,21 @@ nav li {
                 #projects h2,
                 #bio h2,
                 #contact-page h2 {
-                    margin-top: -1.5rem;
                     font-size: 2.5rem;
                 }
                 #services-page h4 {
                     font-size: 1rem;
                     margin-top: -1.5rem;
+                    padding-bottom: 0.5rem;
                 }
                 #services-page ul {
                     margin-bottom: 1rem;
                 }
                 #projects h4 {
                     font-size: 1rem;
-                    margin-top: -0.5rem;
                 }
                 #bio h2 {
-                    margin-top: -2.5rem;
+                    margin-top: -1rem;
                     margin-bottom: 2rem;
                 }
                 #bio-img {
@@ -331,8 +330,11 @@ nav li {
                 #projects h2 {
                     padding-bottom: 2rem;
                 }
+                #contact h3 {
+                    margin-bottom: 2rem;
+                }
                 #contact-page-h3 {
-                    margin-top: 3rem;
+                    margin-top: 4.5rem;
                     margin-bottom: 0.5rem;
                 }
                 #contact input,
