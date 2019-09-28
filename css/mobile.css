@@ -228,9 +228,6 @@ nav li {
             #navbar a {
                 font-size: 0.7rem;
             }
-            #navbar ul {
-                padding-left: 0.5rem;
-            }
             #navbar li {
                 padding: 0 0.1rem;
             }
@@ -285,12 +282,6 @@ nav li {
                     padding: 0.5rem 1rem;
                     margin-top: 1rem;
                 }
-                #services-page h2 {
-                    font-size: 2.5rem;
-                }
-                #services-page h4 {
-                    font-size: 1.15rem;
-                }
                 i {
                     font-size: 5rem;
                 }
@@ -307,15 +298,32 @@ nav li {
                     font-size: 1.5rem;
                 }
                 #services-page h2,
-                #projects h2 {
-                    margin-top: -2rem;
+                #projects h2,
+                #bio h2,
+                #contact-page h2 {
+                    margin-top: -1.5rem;
+                    font-size: 2.5rem;
+                }
+                #services-page h4 {
+                    font-size: 1rem;
+                    margin-top: -1.5rem;
+                }
+                #services-page ul {
+                    margin-bottom: 1rem;
+                }
+                #projects h4 {
+                    font-size: 1rem;
+                    margin-top: -0.5rem;
                 }
                 #bio h2 {
-                    margin-top: -3rem;
+                    margin-top: -2.5rem;
+                    margin-bottom: 2rem;
+                }
+                #bio-img {
+                    height: 7rem;
                 }
                 #bio p {
-                    padding-left: 3rem;
-                    padding-right: 3rem;
+                    padding: 2.5rem 3rem;
                 }
                 #projects {
                     margin: 10rem 3rem 10rem 2rem;
@@ -323,11 +331,9 @@ nav li {
                 #projects h2 {
                     padding-bottom: 2rem;
                 }
-                #projects h4 {
-                    font-size: 1.15rem;
-                }
                 #contact-page-h3 {
                     margin-top: 3rem;
+                    margin-bottom: 0.5rem;
                 }
                 #contact input,
                 #contact textarea {
