@@ -361,6 +361,7 @@ i {
 #bio h2 {
     text-align: center;
     margin-bottom: 3rem;
+    margin-top: -1rem;
 }
 
 #bio-img {
@@ -436,7 +437,7 @@ i {
 }
 
 #contact-page-h3 {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 #contact .btn {
