@@ -208,20 +208,20 @@ nav a:hover {
 
 #services {
     display: flex;
-    align-content: space-around;
     padding: 5rem 10rem 7rem 10rem;
     background: #e7ecec;
 }
 
 #services div:first-child {
-    width: 60%;
+    width: 65%;
 }
 
 #services div:nth-child(2) {
     text-align: center;
     align-self: center;
     justify-self: center;
-    width: 40%;
+    width: 35%;
+    margin-left: 1rem;
 }
 
 #services h2 {
