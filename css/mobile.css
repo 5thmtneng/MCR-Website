@@ -121,6 +121,10 @@ nav li {
     margin: 1rem 0 5rem 0;
 }
 
+.feedback {
+    margin-top: -1rem;
+}
+
 .footer {
     position: relative;
 }

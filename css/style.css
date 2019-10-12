@@ -431,18 +431,10 @@ i {
     color: #ccdf7c;
     padding: 0.5rem;
     font-size: 0.75rem;
-    margin-top: -1rem;
 }
 
 .feedback-invisible {
     display: none;
-}
-
-#contact form .btn {
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-    margin: 3rem 0 0 0;
-    width: 8rem;
 }
 
 ::placeholder {
@@ -460,6 +452,9 @@ i {
     background: #222;
     color: #f8fafa;
     font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    width: 10.1rem;
+    margin: 3rem 0 0 0;
     transition: all 0.6s ease;
     -webkit-appearance: none;
 }
